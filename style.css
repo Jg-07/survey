@@ -1,0 +1,98 @@
+@import url('https://fonts.googleapis.com/css2?family=Comfortaa:wght@500&display=swap');
+*{
+    padding: 0px;
+    margin: 0px;
+    font-family: comfortaa;
+}
+
+body{
+    background:url("Frame 5.png");
+    background-size: cover;
+    display:fixed;
+    margin: 15%;
+    margin-top: 40px;
+    border-radius: 10px;
+}
+.form-block{
+    display: grid;
+    width: 100%;
+    border-radius: 5px;
+    background-color:rgba(0, 0, 0, 0.30);
+    backdrop-filter: blur(10px);
+}
+.form-item{
+    margin: 40px;
+    display: grid;
+}
+.form-title{
+    color: white;
+    font-size:larger;
+    font-weight: bolder;
+    font-family: comfortaa;
+    padding-bottom: 10px;
+}
+.form-input-t{
+    border-radius: 5px;
+    padding: 10px;
+    margin-bottom: 5px;
+    border: none;
+}
+small{
+    color: rgb(230, 230, 230);
+}
+.form-input-t:focus{
+ outline: none;
+}
+.ritem{
+    color: white;
+    font-weight: medium;
+    padding-top: 5px;
+    padding-bottom: 20px;
+}
+.ritem1{
+    color: grey;
+    font-weight: medium;
+    padding-top: 5px;
+    padding-bottom: 20px;
+}
+textarea{
+    padding: 20px;
+    border-radius: 5px;
+}
+textarea:focus{
+    outline: none;
+}
+button{
+    color: white;
+    padding: 20px;
+    font-size: larger;
+    font-weight: bold;
+    background-color: rgb(2, 177, 32);
+    border: none;
+    width: 100%;
+    border-radius: 5px;
+}
+.submit{
+    margin: 30px;
+}
+h1{
+    background-color: black;
+    margin: 100px;
+    margin-bottom: 20px;
+    padding: 10px;
+    border-radius: 5px;
+    color: white;
+}
+h3{
+    background-color: black;
+    margin-bottom: 40px;
+    padding: 10px;
+    border-radius: 5px;
+    color: white;
+}
+.head{
+    text-align: center;
+}
+.head2{
+    text-align: center;
+}
